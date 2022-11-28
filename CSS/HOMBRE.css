@@ -1,0 +1,131 @@
+*{
+  margin: ;
+  padding: 4;
+  box-sizing: none;
+  font-family: "waltograph";
+}
+body{
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #b1c8f0;
+
+}
+
+.contenedor{
+  margin: 0;
+  position: relative;
+  top: 30%;
+  left: 85%;
+  transform: translate(-50, -50);
+  }
+
+.i{
+  text-align: left;
+  font-size: 25px;
+  margin: 20px;
+  border-radius: 50%;
+  padding: 15px;
+  box-shadow: 0px 5px 10px rgb(0, 0, .35);
+  transition: .3s ease;
+}
+.btn{
+text-decoration: none;
+padding: 5px 30px;
+font-size: 20 px;
+position: center;
+margin: 65px;
+
+}
+
+/*btn-1*/
+.btn-1{
+  background: #21437d;
+  color: white;
+  border-radius: 50px;
+  transition: transform 0.3s ease;
+  font-size: 16px;
+  width: 93px;
+  margin: 10px 55px;
+  display: inline-flex;
+  height: 25px;
+  box-shadow: 10px 10px 10px
+  rgba(0,0,0,0.9);
+
+}
+
+.btn-2{
+  background: #21437d;
+  color: white;
+  border-radius: 50px;
+  transition: transform 0.3s ease;
+  font-size: 16px;
+  width: 93px;
+  margin: 10px 55px;
+  display: inline-flex;
+  height: 25px;
+  box-shadow: 10px 10px 10px
+  rgba(0,0,0,0.9);
+
+}
+
+.btn-3{
+  background: #21437d;
+  color: white;
+  border-radius: 50px;
+  transition: transform 0.3s ease;
+  font-size: 16px;
+  width: 95px;
+  margin: 10px 55px;
+  display: inline-flex;
+  height: 25px;
+  box-shadow: 10px 10px 10px
+  rgba(0,0,0,0.9);
+
+}
+
+.btn-4{
+  background: #21437d;
+  color: white;
+  border-radius: 50px;
+  transition: transform 0.3s ease;
+  font-size: 16px;
+  width: 110px;
+  margin: 10px 55px;
+  display: inline-flex;
+  height: 25px;
+  box-shadow: 10px 10px 10px
+  rgba(0,0,0,0.9);
+
+}
+
+*/
+:root {
+  --bg: #1E1F26;
+  --black: #262626;
+  --white: #fff;
+  --gray: #b1b1b1;
+  --time: 300ms;
+}
+
+
+a:after {
+bottom: 0px;
+left: 0px;
+height: 50px;
+width: 20%;
+transform: rotate(0deg)skewX(-90deg);
+}
+
+a:hover{
+  transform: rotate(-3deg)
+  skew(25deg) translate(20px, -15px);
+  box-shadow: -50px 50px 50px
+  rgba(0,0,0,0.5);
+}
+
+.span{
+  font-size: 20px;
+  color: #b13c32;
+
+}
